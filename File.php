@@ -106,7 +106,7 @@ if($Less == null){
 $Less = "50";
 }
 if($myy == null){
-$myy = "@YYX9X" ;
+$myy = "@U_R_Il2003" ;
 }
 if($my == null){
 $my = "0" ;
