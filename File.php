@@ -113,9 +113,9 @@ $my = "0" ;
 }
 class Api
 {
-    public $api_url ='https://kd1s.com/api/v2'; 
+    public $api_url ='https://smmatrixx.com/api'; 
 
-    public $api_key = '3bc2adec00fc3bf45c45071e53166095'; 
+    public $api_key = '9681e1c8cd09190e6ca049e02ffcfc56'; 
 
     public function order($data) { // add order
         $post = array_merge(array('key' => $this->api_key, 'action' => 'add'), $data);
