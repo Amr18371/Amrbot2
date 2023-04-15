@@ -1,12 +1,12 @@
 <?php
 set_time_limit(0);
-$TOKEN = "5986820507:AAE3dIXJIggE9J4sWvEKdqIqmPLnppGHuM8";
+$TOKEN = "5938865103:AAF3k5Zl-_IqRAwMRXsfPLU12TNOQHH5w5M";
 $forwardM=json_decode(file_get_contents("forwardM.json"),1);
 $Js=json_decode(file_get_contents("Js.json"),1);
 $Ds=json_decode(file_get_contents("Ds.json"),1);
 $Vs=json_decode(file_get_contents("Users/Vs.json"),1);
 if($Js['sudo']==null){	
-$sudo=6077013473 ;//ايدي المطور
+$sudo=22163598 ;//ايدي المطور
 }else{
 $sudo=$Js['sudo'];
 }
